@@ -1,5 +1,3 @@
 #!/bin/sh
 # index help documentation in bundles
-for dir in bundle/*/doc/; do
-  vim -u NONE -c "helptags $dir" -c quit
-done
+vim -u NONE -c "for dir in split(globpath(&runtimepath, 'bundle/*/doc/.'), '\n') | execute 'helptags '. dir | endfor | quit"
