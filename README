@@ -66,3 +66,15 @@ Bundle management:
     git rm --cached bundle/YYY
     git commit -m "remove YYY bundle" bundle/YYY
     git clean -fd bundle/YYY
+
+References:
+
+  * http://www.vi-improved.org/vimrc.php
+  * http://vim.wikia.com/wiki/Example_vimrc
+  * http://vim.wikia.com/wiki/Vim_Tips_Wiki
+  * http://stackoverflow.com/questions/tagged/vim
+  * http://items.sjbach.com/319/configuring-vim-right
+  * http://push.cx/2008/256-color-xterms-in-ubuntu
+  * http://tammersaleh.com/posts/the-modern-vim-config-with-pathogen
+  * http://vim.wikia.com/wiki/Single_tags_file_for_a_source_tree
+  * http://vimcasts.org/episodes/bubbling-text/
