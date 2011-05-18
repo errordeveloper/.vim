@@ -36,9 +36,10 @@ set colorcolumn=+1              " show textwidth limit
 autocmd ColorScheme * highlight! link ColorColumn StatusLineNC
 
 if has('gui_running')
-  colorscheme xoria256
+  colorscheme desertEx
+  highlight Comment gui=none
 elseif &t_Co > 8
-  colorscheme xoria256
+  colorscheme desertEx
 elseif &term == 'linux'
   set background=dark
 else
