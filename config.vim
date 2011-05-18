@@ -12,13 +12,6 @@
 " bootstrap
 "-----------------------------------------------------------------------------
 
-" base this configuration on the official example vimrc,
-" which is maintained by the great Bram Moolenaar himself!
-silent! execute 'source '. globpath(&runtimepath, 'vimrc_example.vim')
-if has('gui_running')
-  silent! execute 'source '. globpath(&runtimepath, 'gvimrc_example.vim')
-endif
-
 " register bundles found in the runtimepath
 let s:bundles = tr(globpath(&runtimepath, 'bundle/*/.'), "\n", ',')
 let s:afters = tr(globpath(s:bundles, 'after/.'), "\n", ',')
@@ -27,6 +20,13 @@ let &runtimepath = join([s:bundles, &runtimepath, s:afters], ',')
 " activate ftplugin/ scripts inside bundles
 filetype off
 filetype plugin indent on
+
+" base this configuration on the official example vimrc,
+" which is maintained by the great Bram Moolenaar himself!
+silent! execute 'source '. globpath(&runtimepath, 'vimrc_example.vim')
+if has('gui_running')
+  silent! execute 'source '. globpath(&runtimepath, 'gvimrc_example.vim')
+endif
 
 "-----------------------------------------------------------------------------
 " appearance
