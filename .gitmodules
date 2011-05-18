@@ -100,3 +100,6 @@
 [submodule "bundle/wikipedia"]
 	path = bundle/wikipedia
 	url = git://github.com/vim-scripts/wikipedia.vim.git
+[submodule "bundle/0-colorschemes-xoria256"]
+	path = bundle/0-colorschemes-xoria256
+	url = git://github.com/vim-scripts/xoria256.vim.git
