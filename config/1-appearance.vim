@@ -21,7 +21,3 @@ set guifont=Tamsyn\ 11,Monospace\ 9
 
 set wildmenu                   " turn on command line completion wild style
 set wildmode=list:longest,full " turn on wild mode huge list
-
-" retain relative cursor position when paging the screen
-nnoremap <PageUp> <C-U>
-nnoremap <PageDown> <C-D>

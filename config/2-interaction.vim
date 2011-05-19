@@ -6,3 +6,7 @@ set confirm       " ask user before aborting an action
 
 " be consistent with capitalized C and D commands which reach the end of line
 nnoremap Y y$
+
+" retain relative cursor position when paging the screen
+nnoremap <PageUp> <C-U>
+nnoremap <PageDown> <C-D>
