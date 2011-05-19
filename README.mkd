@@ -18,7 +18,8 @@ and [this is the Vim configuration][2] that made it all possible.
 Prerequisites
 ------------------------------------------------------------------------------
 
-Vim 7.2 or newer.
+* Vim 7.2 or newer
+* GNU Make
 
 ------------------------------------------------------------------------------
 Installation
@@ -41,7 +42,7 @@ Bundle management
 Installing and upgrading Git bundles:
 
     cd ~/.vim
-    sh bundle.sh
+    make
 
 Adding bundles from any Git repository:
 
