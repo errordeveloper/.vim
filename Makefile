@@ -5,13 +5,6 @@ all: pull
 pull:
 	git submodule init
 	git submodule status | awk '/^-/ { print $$2 }' | xargs -r git submodule update
-
-	# ignore all changes to submodules in `git status`
-	for submodule in `git submodule status | awk '{print $$2}'`; \
-	do \
-		git config "submodule.$$submodule.ignore" all; \
-	done
-
 	git submodule foreach git pull origin master
 
 	# resolve conflict between scrooloose's snippets and the official ones
@@ -60,7 +53,7 @@ endif
 	git submodule add git://github.com/vim-scripts/$(from).git bundle/$(to)
 	git commit -m 'add $(to) bundle' bundle/YYY
 
-remove:
+remove: .gitmodules
 ifndef from
 	#
 	# Removes a bundle.
@@ -71,6 +64,9 @@ ifndef from
 	#
 	@false
 endif
+	git stash save 'going to remove $(from) bundle...'
 	git rm --cached bundle/$(from)
-	git commit -m 'remove $(from) bundle' bundle/$(from)
-	git clean -fd bundle/$(from)
+	sed -i '/^\[submodule "bundle\/$(from)"\]$$/,+2d' .gitmodules
+	git commit -am 'remove $(from) bundle'
+	rm -rf bundle/$(from)
+	git stash pop
