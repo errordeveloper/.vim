@@ -7,7 +7,12 @@ function! StripTrailingWhitespace()
   if !&binary && &filetype != 'diff'
     normal mz
     normal Hmy
-    %s/\s\+$//e
+    if &filetype == 'mail'
+      " preserve space after e-mail signature separator
+      %s/\(^--\)\@<!\s\+$//e
+    else
+      %s/\s\+$//e
+    endif
     normal 'yz<Enter>
     normal `z
   endif
