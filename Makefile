@@ -1,8 +1,15 @@
-all: pull
+all: update
 
 #-----------------------------------------------------------------------------
 
-pull:
+rebase:
+	git stash save 'going to rebase upstream...'
+	git remote show upstream || git remote add upstream git://github.com/sunaku/.vim.git
+	git fetch upstream
+	git rebase upstream/master
+	git stash pop
+
+update:
 	git submodule init
 	git submodule status | awk '/^-/ { print $$2 }' | xargs -r git submodule update
 	git submodule foreach git pull origin master
