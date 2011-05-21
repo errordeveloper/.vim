@@ -3,16 +3,10 @@ all: update
 #-----------------------------------------------------------------------------
 
 rebase:
-	touch _9744b0fd_481a_44e9_ba3f_348df37ce0ad
-	git add _9744b0fd_481a_44e9_ba3f_348df37ce0ad
-	git stash save 'going to rebase upstream...'
-
+	git rebase HEAD # ensure that there are no uncommitted changes
 	git remote show upstream || git remote add upstream git://github.com/sunaku/.vim.git
 	git fetch upstream
 	git rebase upstream/master
-
-	git stash pop --quiet
-	git rm -f _9744b0fd_481a_44e9_ba3f_348df37ce0ad
 
 update:
 	git submodule init
@@ -76,14 +70,8 @@ ifndef from
 	#
 	@false
 endif
-	touch _f9cb50b9_26ce_4f44_9777_b7899c99d958
-	git add _f9cb50b9_26ce_4f44_9777_b7899c99d958
-	git stash save 'going to remove $(from) bundle...'
-
+	git rebase HEAD # ensure that there are no uncommitted changes
 	git rm --cached bundle/$(from)
 	sed -i '/^\[submodule "bundle\/$(from)"\]$$/,+2d' .gitmodules
 	git commit -am 'remove $(from) bundle'
 	rm -rf bundle/$(from)
-
-	git stash pop --quiet
-	git rm -f _f9cb50b9_26ce_4f44_9777_b7899c99d958
