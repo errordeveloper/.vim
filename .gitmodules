@@ -103,3 +103,6 @@
 [submodule "bundle/0-colorschemes-xoria256"]
 	path = bundle/0-colorschemes-xoria256
 	url = git://github.com/vim-scripts/xoria256.vim.git
+[submodule "bundle/hexHighlight"]
+	path = bundle/hexHighlight
+	url = git://github.com/vim-scripts/hexHighlight.vim.git
