@@ -3,8 +3,12 @@ autocmd ColorScheme * highlight! link ColorColumn StatusLineNC
 
 if has('gui_running')
   colorscheme xoria256
+  highlight Pmenu    guibg=#d0d0d0
+  highlight PmenuSel guifg=#d0d0d0
 elseif &t_Co > 8
   colorscheme xoria256
+  highlight Pmenu    ctermbg=188
+  highlight PmenuSel ctermfg=188
 elseif &term == 'linux'
   set background=dark
 else
