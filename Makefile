@@ -41,7 +41,7 @@ ifndef from
 	@false
 endif
 	git submodule add $(from) bundle/$(to)
-	git commit -m 'add $(to) bundle' bundle/$(to)
+	git commit -m 'add $(to) bundle' bundle/$(to) .gitmodules
 
 
 add-script:
