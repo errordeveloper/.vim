@@ -106,3 +106,6 @@
 [submodule "bundle/hexHighlight"]
 	path = bundle/hexHighlight
 	url = git://github.com/vim-scripts/hexHighlight.vim.git
+[submodule "bundle/0-colorschemes-jellyx"]
+	path = bundle/0-colorschemes-jellyx
+	url = git://github.com/guns/jellyx.vim.git
