@@ -109,3 +109,6 @@
 [submodule "bundle/0-colorschemes-jellyx"]
 	path = bundle/0-colorschemes-jellyx
 	url = git://github.com/guns/jellyx.vim.git
+[submodule "bundle/0-colorschemes-zenburn"]
+	path = bundle/0-colorschemes-zenburn
+	url = git://github.com/vim-scripts/Zenburn.git
