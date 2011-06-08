@@ -1,13 +1,5 @@
 all: update
 
-#-----------------------------------------------------------------------------
-
-rebase:
-	git rebase HEAD # ensure that there are no uncommitted changes
-	git remote show upstream || git remote add upstream git://github.com/sunaku/.vim.git
-	git fetch upstream
-	git rebase upstream/master
-
 update:
 	git submodule init
 	git submodule status | awk '/^-/ { print $$2 }' | xargs -r git submodule update
@@ -75,3 +67,11 @@ endif
 	sed -i '/^\[submodule "bundle\/$(from)"\]$$/,+2d' .gitmodules
 	git commit -am 'remove $(from) bundle'
 	rm -rf bundle/$(from)
+
+#-----------------------------------------------------------------------------
+
+rebase:
+	git rebase HEAD # ensure that there are no uncommitted changes
+	git remote show upstream || git remote add upstream git://github.com/sunaku/.vim.git
+	git fetch upstream
+	git rebase upstream/master
