@@ -48,7 +48,7 @@ ifndef from
 	#
 	@false
 endif
-	git submodule add git://github.com/vim-scripts/$(from).git bundle/$(to)
+	git submodule add git://github.com/vim-scripts/$(basename $(from)).git bundle/$(to)
 	git commit -m 'add $(to) bundle' bundle/$(to) .gitmodules
 
 remove: .gitmodules
