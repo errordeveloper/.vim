@@ -112,3 +112,6 @@
 [submodule "bundle/0-colorschemes-zenburn"]
 	path = bundle/0-colorschemes-zenburn
 	url = git://github.com/vim-scripts/Zenburn.git
+[submodule "bundle/ruby-block-conv"]
+	path = bundle/ruby-block-conv
+	url = git://github.com/bronson/vim-ruby-block-conv.git

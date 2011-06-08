@@ -3,6 +3,7 @@ nnoremap <Leader>th :set nohlsearch!<Enter>
 nnoremap <Leader>tn :set relativenumber!<Enter>
 nnoremap <Leader>tz :set foldenable!<Enter>
 nnoremap <Leader>tp :set paste!<Enter>
+nnoremap <Leader>tb :B<Enter>
 
 nnoremap <Leader>tc :call CycleTerminalPaletteSize()<Enter>
 function! CycleTerminalPaletteSize()
