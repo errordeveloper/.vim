@@ -118,3 +118,6 @@
 [submodule "bundle/vimplate"]
 	path = bundle/vimplate
 	url = git://github.com/vim-scripts/vimplate.git
+[submodule "bundle/gist"]
+	path = bundle/gist
+	url = https://github.com/mathieue/gist-vim
