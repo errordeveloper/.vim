@@ -49,9 +49,6 @@
 [submodule "bundle/AutoClose"]
 	path = bundle/AutoClose
 	url = git://github.com/vim-scripts/AutoClose.git
-[submodule "bundle/CSApprox"]
-	path = bundle/CSApprox
-	url = git://github.com/vim-scripts/CSApprox.git
 [submodule "bundle/file-line"]
 	path = bundle/file-line
 	url = git://github.com/vim-scripts/file-line.git
