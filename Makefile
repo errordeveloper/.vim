@@ -78,9 +78,9 @@ rebase:
 
 commit:
 	git status && \
-		printf "Commit? (y/n): " && read && \
+		printf "Commit? (Enter/Cancel): " && read && \
 		git commit -am --edit && \
-		printf "Push? (y/n): " && read && \
+		printf "Push? (Enter/Cancel): " && read && \
 		git push github.com
 
 SEARCH ?= "https://github.com/search?type=Everything&language=VimL&q=$(for)"
