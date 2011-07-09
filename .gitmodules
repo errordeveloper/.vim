@@ -124,3 +124,6 @@
 [submodule "bundle/TeX"]
 	path = bundle/TeX
 	url = git://github.com/vim-scripts/TeX-9.git
+[submodule "bundle/ri-viewer"]
+	path = bundle/ri-viewer
+	url = git://github.com/vim-scripts/ri-viewer.git
