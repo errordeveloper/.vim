@@ -76,6 +76,9 @@ rebase:
 	git fetch upstream
 	git rebase upstream/master
 
+commit-amend:
+	git commit -a --amend
+
 commit:
 	git status && \
 		printf "Commit? (Enter/Cancel): " && read && \

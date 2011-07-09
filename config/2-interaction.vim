@@ -22,7 +22,8 @@ set mouse=a
 
 
 " treat wrapped lines like real lines
-"nnoremap <Up> gk
-"nnoremap <Down> gj
+nnoremap <Up> gk
+nnoremap <Down> gj
 
+set nocompatible
 
