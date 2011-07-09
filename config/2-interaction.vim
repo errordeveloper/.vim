@@ -2,7 +2,7 @@
 let mapleader=','
 noremap \ ,
 
-set shell=/bin/sh " use Bourne shell for command substitution
+set shell=/bin/tcsh
 set history=1000  " remember this many commands & searches
 set confirm       " ask user before aborting an action
 
@@ -12,3 +12,17 @@ nnoremap Y y$
 " retain relative cursor position when paging the screen
 nnoremap <PageUp> <C-U>
 nnoremap <PageDown> <C-D>
+
+set mouse=a
+
+" fix arrow keys in insert mode
+"if &term == 'rxvt-unicode-256color' "|| &term == 'rxvt-unicode'
+"  execute "inoremap \e[OA <Up>"
+"endif
+
+
+" treat wrapped lines like real lines
+"nnoremap <Up> gk
+"nnoremap <Down> gj
+
+
