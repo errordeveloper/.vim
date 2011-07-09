@@ -3,8 +3,8 @@ let mapleader=','
 noremap \ ,
 
 set shell=/bin/tcsh
-set history=1000  " remember this many commands & searches
-set confirm       " ask user before aborting an action
+set history=4096
+set noconfirm
 
 " be consistent with capitalized C and D commands which reach the end of line
 nnoremap Y y$
