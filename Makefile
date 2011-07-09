@@ -77,7 +77,11 @@ rebase:
 	git rebase upstream/master
 
 commit:
-	git commit -am --edit && echo "Push? (y/n): " && read && git push github.com
+	git status && \
+		printf "Commit? (y/n): " && read && \
+		git commit -am --edit && \
+		printf "Push? (y/n): " && read && \
+		git push github.com
 
 SEARCH ?= "https://github.com/search?type=Everything&language=VimL&q=$(for)"
 BROWSE ?= /usr/bin/surf
