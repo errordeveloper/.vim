@@ -79,7 +79,7 @@ rebase:
 commit:
 	git status && \
 		printf "Commit? (Enter/Cancel): " && read && \
-		git commit -am --edit && \
+		git commit -a --edit && \
 		printf "Push? (Enter/Cancel): " && read && \
 		git push github.com
 
