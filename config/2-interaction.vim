@@ -22,8 +22,20 @@ set mouse=a
 
 
 " treat wrapped lines like real lines
-nnoremap <Up> gk
-nnoremap <Down> gj
+""inoremap <Up> gk
+""inoremap <Down> gj
+
+
+
+" <Up>=^[[A
+" <Down>=^[[B
+" <Left>=^[[D
+" <Right>=^[[C
 
 set nocompatible
+"set term=builtin_ansi
+"set nottybuiltin
+"set noesckeys
 
+"set ttimeout
+"set ttimeoutlen=100
