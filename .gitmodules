@@ -112,9 +112,6 @@
 [submodule "bundle/ruby-block-conv"]
 	path = bundle/ruby-block-conv
 	url = git://github.com/bronson/vim-ruby-block-conv.git
-[submodule "bundle/gist-vim"]
-	path = bundle/gist-vim
-	url = https://github.com/mathieue/gist-vim
 [submodule "bundle/let-modeline"]
 	path = bundle/let-modeline
 	url = https://github.com/vim-scripts/let-modeline.vim
