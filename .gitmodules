@@ -130,3 +130,6 @@
 [submodule "bundle/github"]
 	path = bundle/github
 	url = https://github.com/thinca/vim-github
+[submodule "bundle/hdl-plugin"]
+	path = bundle/hdl-plugin
+	url = git://github.com/vim-scripts/hdl_plugin.git
