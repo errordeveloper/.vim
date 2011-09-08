@@ -106,9 +106,6 @@
 [submodule "bundle/let-modeline"]
 	path = bundle/let-modeline
 	url = https://github.com/vim-scripts/let-modeline.vim
-[submodule "bundle/gist"]
-	path = bundle/gist
-	url = https://github.com/mathieue/gist-vim
 [submodule "bundle/TeX"]
 	path = bundle/TeX
 	url = git://github.com/vim-scripts/TeX-9.git
