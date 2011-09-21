@@ -124,6 +124,3 @@
 [submodule "bundle/gist"]
 	path = bundle/gist
 	url = git://github.com/mathieue/gist-vim.git
-[submodule "bundle/Solarized"]
-	path = bundle/Solarized
-	url = git://github.com/vim-scripts/Solarized.git
