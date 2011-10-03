@@ -130,3 +130,6 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/SimpylFold"]
+	path = bundle/SimpylFold
+	url = git://github.com/tmhedberg/SimpylFold.git
