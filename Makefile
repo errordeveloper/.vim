@@ -64,6 +64,7 @@ ifndef from
 endif
 	git rebase HEAD # ensure that there are no uncommitted changes
 	git rm --cached bundle/$(from)
+	# TODO: replace this with `git config` trick (see my SO answer)
 	sed -i '/^\[submodule "bundle\/$(from)"\]$$/,+2d' .gitmodules
 	git commit -am 'remove $(from) bundle'
 	rm -rf bundle/$(from)
