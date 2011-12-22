@@ -4,8 +4,8 @@ let s:afters = tr(globpath(s:bundles, 'after/.'), "\n", ',')
 let &runtimepath = join([s:bundles, &runtimepath, s:afters], ',')
 
 " activate ftplugin/ scripts inside bundles
-filetype off
-filetype plugin indent on
+"filetype off
+"filetype plugin indent on
 
 " delegate configuration to files in config/
 for config in split(globpath(&runtimepath, 'config/**/*.vim'), "\n")

@@ -124,6 +124,12 @@
 [submodule "bundle/gist"]
 	path = bundle/gist
 	url = git://github.com/mathieue/gist-vim.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/puppet-syntax"]
 	path = bundle/puppet-syntax
 	url = git://github.com/puppetlabs/puppet-syntax-vim.git
