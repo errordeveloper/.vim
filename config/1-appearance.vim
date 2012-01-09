@@ -38,3 +38,6 @@ else " &term == 'xterm' || &term == 'xterm-color'
   set background=dark
   colorscheme solarized
 endif
+
+"TODO: set 'titlestring'
+set title
