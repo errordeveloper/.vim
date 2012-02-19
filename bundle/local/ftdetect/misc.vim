@@ -36,3 +36,6 @@ au BufRead,BufNewFile *nginx* set ft=nginx
 "" FileType: RFC
 au BufRead,BufNewFile draft*.txt set ft=rfc
 au BufRead,BufNewFile rfc*.txt set ft=rfc
+
+"" FileType: JSON
+au BufRead,BufNewFile *.json set ft=javascript
