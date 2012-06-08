@@ -39,3 +39,6 @@ au BufRead,BufNewFile rfc*.txt set ft=rfc
 
 "" FileType: JSON
 au BufRead,BufNewFile *.json set ft=javascript
+
+"" FileType: KL1
+au BufRead,BufNewFile *.kl1 set ft=klone
