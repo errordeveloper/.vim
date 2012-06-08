@@ -41,3 +41,6 @@ endif
 
 "TODO: set 'titlestring'
 set title
+
+set cursorline
+set cursorcolumn
