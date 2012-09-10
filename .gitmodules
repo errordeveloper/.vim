@@ -67,3 +67,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = git://github.com/jinfield/vim-nginx.git
+[submodule "bundle/scala"]
+	path = bundle/scala
+	url = git://github.com/derekwyatt/vim-scala
