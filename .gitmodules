@@ -1,123 +1,57 @@
-[submodule "bundle/snipMate"]
-	path = bundle/snipMate
-	url = git://github.com/msanders/snipmate.vim.git
-[submodule "bundle/rails"]
-	path = bundle/rails
-	url = git://github.com/tpope/vim-rails.git
-[submodule "bundle/ruby"]
-	path = bundle/ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
-[submodule "bundle/unimpaired"]
-	path = bundle/unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
+#[submodule "bundle/ruby"]
+#	path = bundle/ruby
+#	url = git://github.com/vim-ruby/vim-ruby.git
+#[submodule "bundle/unimpaired"]
+#	path = bundle/unimpaired
+#	url = git://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = git://github.com/tpope/vim-markdown.git
 [submodule "bundle/git"]
 	path = bundle/git
 	url = git://github.com/tpope/vim-git.git
-[submodule "bundle/endwise"]
-	path = bundle/endwise
-	url = git://github.com/tpope/vim-endwise.git
-[submodule "bundle/repeat"]
-	path = bundle/repeat
-	url = git://github.com/tpope/vim-repeat.git
 [submodule "bundle/haml"]
 	path = bundle/haml
 	url = git://github.com/tpope/vim-haml.git
-[submodule "bundle/abolish"]
-	path = bundle/abolish
-	url = git://github.com/tpope/vim-abolish.git
 [submodule "bundle/NERDTree"]
 	path = bundle/NERDTree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/NERDCommenter"]
-	path = bundle/NERDCommenter
-	url = git://github.com/scrooloose/nerdcommenter
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
-[submodule "bundle/0-snipMate/snippets"]
-	path = bundle/0-snipMate/snippets
-	url = git://github.com/scrooloose/snipmate-snippets.git
+#[submodule "bundle/syntastic"]
+#	path = bundle/syntastic
+#	url = git://github.com/scrooloose/syntastic.git
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/file-line"]
 	path = bundle/file-line
 	url = git://github.com/vim-scripts/file-line.git
-[submodule "bundle/FuzzyFinder"]
-	path = bundle/FuzzyFinder
-	url = git://github.com/vim-scripts/FuzzyFinder.git
-[submodule "bundle/L9"]
-	path = bundle/L9
-	url = git://github.com/vim-scripts/L9.git
-[submodule "bundle/matchit"]
-	path = bundle/matchit
-	url = git://github.com/vim-scripts/matchit.zip.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = git://github.com/vim-scripts/taglist.vim.git
-[submodule "bundle/ack"]
-	path = bundle/ack
-	url = git://github.com/vim-scripts/ack.vim.git
-[submodule "bundle/colorschemes"]
-	path = bundle/colorschemes
-	url = git://github.com/flazz/vim-colorschemes.git
-[submodule "bundle/narrow"]
-	path = bundle/narrow
-	url = git://github.com/kana/vim-narrow.git
-[submodule "bundle/gundo"]
-	path = bundle/gundo
-	url = git://github.com/sjl/gundo.vim.git
+#[submodule "bundle/FuzzyFinder"]
+#	path = bundle/FuzzyFinder
+#	url = git://github.com/vim-scripts/FuzzyFinder.git
+#[submodule "bundle/taglist"]
+#	path = bundle/taglist
+#	url = git://github.com/vim-scripts/taglist.vim.git
+#[submodule "bundle/ack"]
+#	path = bundle/ack
+#	url = git://github.com/vim-scripts/ack.vim.git
+#[submodule "bundle/colorschemes"]
+#	path = bundle/colorschemes
+#	url = git://github.com/flazz/vim-colorschemes.git
 [submodule "bundle/screen"]
 	path = bundle/screen
 	url = git://github.com/ervandew/screen.git
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "bundle/extradite"]
-	path = bundle/extradite
-	url = git://github.com/int3/vim-extradite.git
-[submodule "bundle/eregex"]
-	path = bundle/eregex
-	url = git://github.com/othree/eregex.vim.git
-[submodule "bundle/QFixToggle"]
-	path = bundle/QFixToggle
-	url = git://github.com/sunaku/QFixToggle.git
 [submodule "bundle/wikipedia"]
 	path = bundle/wikipedia
 	url = git://github.com/vim-scripts/wikipedia.vim.git
-[submodule "bundle/0-colorschemes-xoria256"]
-	path = bundle/0-colorschemes-xoria256
-	url = git://github.com/vim-scripts/xoria256.vim.git
-[submodule "bundle/hexHighlight"]
-	path = bundle/hexHighlight
-	url = git://github.com/vim-scripts/hexHighlight.vim.git
-[submodule "bundle/0-colorschemes-jellyx"]
-	path = bundle/0-colorschemes-jellyx
-	url = git://github.com/guns/jellyx.vim.git
-[submodule "bundle/0-colorschemes-zenburn"]
-	path = bundle/0-colorschemes-zenburn
-	url = git://github.com/vim-scripts/Zenburn.git
-[submodule "bundle/ruby-block-conv"]
-	path = bundle/ruby-block-conv
-	url = git://github.com/bronson/vim-ruby-block-conv.git
-[submodule "bundle/let-modeline"]
-	path = bundle/let-modeline
-	url = https://github.com/vim-scripts/let-modeline.vim
-[submodule "bundle/TeX"]
-	path = bundle/TeX
-	url = git://github.com/vim-scripts/TeX-9.git
 [submodule "bundle/ri-viewer"]
 	path = bundle/ri-viewer
 	url = git://github.com/vim-scripts/ri-viewer.git
 [submodule "bundle/nesC"]
 	path = bundle/nesC
 	url = git://github.com/vim-scripts/nesC.git
-[submodule "bundle/github"]
-	path = bundle/github
-	url = https://github.com/thinca/vim-github
 [submodule "bundle/hdl-plugin"]
 	path = bundle/hdl-plugin
 	url = git://github.com/vim-scripts/hdl_plugin.git
