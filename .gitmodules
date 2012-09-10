@@ -55,9 +55,6 @@
 [submodule "bundle/hdl-plugin"]
 	path = bundle/hdl-plugin
 	url = git://github.com/vim-scripts/hdl_plugin.git
-[submodule "bundle/gist"]
-	path = bundle/gist
-	url = git://github.com/mathieue/gist-vim.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
