@@ -73,3 +73,6 @@
 [submodule "bundle/VimClojure"]
 	path = bundle/VimClojure
 	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/golang"]
+	path = bundle/golang
+	url = https://github.com/jnwhiteh/vim-golang
