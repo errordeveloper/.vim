@@ -14,6 +14,15 @@ Plug 'fatih/vim-go'
 " syntax checker that shells out to rustc ;=)
 Plug 'wting/rust.vim'
 
+" official puppet syntax (non-official alternative: 'rodjek/vim-puppet')
+Plug 'puppetlabs/puppet-syntax-vim'
+
+" official salt syntax
+Plug 'saltstack/salt-vim'
+
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
 call plug#end()
 
 for config in split(globpath(&runtimepath, 'config/**/*.vim'), "\n")
