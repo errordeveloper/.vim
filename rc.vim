@@ -23,6 +23,9 @@ Plug 'saltstack/salt-vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
+"" Looks like the only option for Scala...
+Plug 'derekwyatt/vim-scala'
+
 call plug#end()
 
 for config in split(globpath(&runtimepath, 'config/**/*.vim'), "\n")
